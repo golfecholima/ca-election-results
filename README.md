@@ -3,7 +3,7 @@
 ## Background
 
 ### Beginnings
-This project began as a proposed collaboration between Stanford University, Big Local News, and The California Newsroom (local radio stations, NPR and CalMatters). The central question: Can we provide a free (low-cost?) resource for newsrooms across the state to report election results on election night, especially down ballot and using as little human resources as possible.
+This project began as a proposed collaboration between Stanford University, Big Local News, and The California Newsroom (local radio stations, NPR and CalMatters). The central question: Can we provide a free resource for newsrooms across the state to report election results on election night, especially down ballot and using as little human resources as possible.
 
 ### Known challenges
 * California reports elections results at the county level. 58 counties distribute their results in 58 different ways. Some highly technical and organized, others much less so.
@@ -13,7 +13,7 @@ This project began as a proposed collaboration between Stanford University, Big 
 * Building sustainable tools. Counties will change how they report results after this project is done, then what?
 
 ### Proposed solution
-A mobile-first data entry web application that auto-populates where automation is possible and predictable, and otherwise provides a simple user experience such that remaining results can be manually entered by newsroom volunteers, stringers, or staff with minimal risk for error. An accompanying flat-file or API results portal and basic prebuilt iframe capable results widgets.
+A mobile-first data entry web application that auto-populates where automation is possible and predictable, and otherwise provides a simple user experience such that remaining results can be manually entered by newsroom volunteers, stringers, or staff with minimal risk for error. The web application would be accompanied by a flat-file or API results portal and basic prebuilt iframe-capable results widgets.
 
 ## Imagined interfaces
 * Fuzzy search list of counties. Click through to >
@@ -26,7 +26,7 @@ A mobile-first data entry web application that auto-populates where automation i
             * Color coded for entry type (manual, scraped, API, verified)
           * Clicking entry field pops up numpad
         * Status dropdown
-          * No data, Unknown, <25% precincts, 25-50% precincts, 50-75% precincts, >75% precincts, 100% precincts, Preliminary, Verified, Winner!
+          * No data, Unknown, <25% precincts, 25-50% precincts, 50-75% precincts, >75% precincts, 100% precincts, Preliminary, Verified, Certified/Winner!
 * County-level results hosted as JSON flat file (or maybe all-state Datasette SQLite database?!)
 * Basic prebuilt widget(s) for story/results page placement.
 
